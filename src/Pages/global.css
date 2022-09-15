@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM Sans:wght@100;200;300;400;500;600;700;800&family=Merriweather:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	font-family: 'DM Sans' !important;
+}
+
+#root > * {
+	min-height: 100vh;
+	min-width: 100vw;
+	overflow-y: auto;
+}
+.carousel-root {
+    outline: none;
+    
+}
+.thumbs-wrapper.axis-vertical, button.control-arrow.control-prev {
+    display: none;
+}
+.carousel .slider-wrapper{
+	height:900px;
+}
